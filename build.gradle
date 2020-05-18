@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.abc'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.pi4j/pi4j-core
+    compile group: 'com.pi4j', name: 'pi4j-core', version: '1.2'
+    // https://mvnrepository.com/artifact/com.pi4j/pi4j-device
+    compile group: 'com.pi4j', name: 'pi4j-device', version: '1.2'
+    // https://mvnrepository.com/artifact/junit/junit
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

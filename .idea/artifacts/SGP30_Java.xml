@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SGP30-Java">
+    <output-path>$PROJECT_DIR$/out/artifacts/SGP30_Java</output-path>
+    <root id="archive" name="SGP30-Java.main.jar">
+      <element id="module-output" name="SGP30-Java.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pi4j/pi4j-device/1.2/51f516a376c74eb926d7dad06f80a86df0f5d886/pi4j-device-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pi4j/pi4j-gpio-extension/1.2/33b69bbd624da4a2778305c289f5107ea8869ea2/pi4j-gpio-extension-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pi4j/pi4j-core/1.2/5259166f896a41c72f3f3a239754b8b1b0f866c2/pi4j-core-1.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
